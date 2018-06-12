@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "MyBoxOffice",
+  "description": "The most popular movies and TV shows in your default tab. Includes ratings, summaries and the ability to watch trailers. Just made for fun special credits to @Jake Prins",
+  "version": "1",
+  "author": "Ravi vaniya",
+  "browser_action": {
+    "default_icon": "cartoon1.jpg",
+    "default_title": "Wanna see this!",
+    "default_popup": "popup.html"
+  },
+  "chrome_url_overrides" : {
+    "newtab": "newtab.html"
+  },
+  // "content_security_policy": "script-src 'self'",
+  // // "theme": { 
+  // 	"images": { 
+  // 		"theme_frame": "images/01.jpg"
+  // 	}
+  // },
+  "permissions": ["activeTab","<all_urls>"]
+}
